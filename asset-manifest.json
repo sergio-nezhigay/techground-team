@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/techground-team/static/css/main.f3319703.css",
-    "main.js": "/techground-team/static/js/main.a48d2d2e.js",
+    "main.js": "/techground-team/static/js/main.8ca2a016.js",
     "index.html": "/techground-team/index.html",
     "main.f3319703.css.map": "/techground-team/static/css/main.f3319703.css.map",
-    "main.a48d2d2e.js.map": "/techground-team/static/js/main.a48d2d2e.js.map"
+    "main.8ca2a016.js.map": "/techground-team/static/js/main.8ca2a016.js.map"
   },
   "entrypoints": [
     "static/css/main.f3319703.css",
-    "static/js/main.a48d2d2e.js"
+    "static/js/main.8ca2a016.js"
   ]
 }
