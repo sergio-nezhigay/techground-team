@@ -100,7 +100,7 @@ function Messages() {
                     ))}
                   </td>
                   <td>{task.message}</td>
-                  <td>
+                  <td className="last-column">
                     <Button
                       className="margin-right-10"
                       variant="secondary"

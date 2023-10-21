@@ -9,7 +9,7 @@ import App from "./App";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter>
-      {/* <HashRouter basename="https://sergio-nezhigay.github.io/techground-team/"> */}
+      {/* <HashRouter basename={"/techground-team"}> */}
       <App />
     </HashRouter>
     {/* <BrowserRouter> */}

@@ -5,3 +5,7 @@
 .margin-right-10 {
   margin-right: 10px;
 }
+
+.last-column {
+  min-width: 280px;
+}
