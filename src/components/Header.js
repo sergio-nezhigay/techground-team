@@ -6,7 +6,7 @@ import logo from "./logo-numo.png";
 
 const Header = () => {
   const logoStyle = {
-    maxHeight: "50px", // Set the maximum height to 50px
+    maxHeight: "50px",
   };
   return (
     <header>
