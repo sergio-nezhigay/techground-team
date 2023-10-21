@@ -2,28 +2,32 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import logo from "./logo-numo.png";
 
 const Header = () => {
+  const logoStyle = {
+    maxHeight: "50px", // Set the maximum height to 50px
+  };
   return (
     <header>
       <Navbar bg="light" expand="lg">
         <Container>
-          {/* <Navbar.Brand as={NavLink} to="/">
-            Користувачі
-          </Navbar.Brand> */}
+          <Navbar.Brand as={NavLink} to="/">
+            <img src={logo} alt="Logo" style={logoStyle} />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link as={NavLink} to="/" activeclassname="active">
+              <Nav.Link as={NavLink} to="/" activeClassName="active">
                 Користувачі
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/messages" activeclassname="active">
+              <Nav.Link as={NavLink} to="/messages" activeClassName="active">
                 Розсилки
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/analytics" activeclassname="active">
+              <Nav.Link as={NavLink} to="/analytics" activeClassName="active">
                 Аналітика
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/login" activeclassname="active">
+              <Nav.Link as={NavLink} to="/login" activeClassName="active">
                 Логін
               </Nav.Link>
             </Nav>
