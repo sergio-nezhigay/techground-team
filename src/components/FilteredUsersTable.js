@@ -6,10 +6,10 @@ function FilteredUsersTable({ filteredUsers }) {
       <table className="table">
         <thead>
           <tr>
-            <th>Name</th>
-            <th>User Type</th>
-            <th>Age</th>
-            <th>Location</th>
+            <th>Ім'я</th>
+            <th>Канал</th>
+            <th>Вік</th>
+            <th>Місто </th>
           </tr>
         </thead>
         <tbody>
